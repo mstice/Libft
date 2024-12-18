@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 static int	ft_string_counter(char const *s, char c)
 {
@@ -81,7 +82,7 @@ char	**ft_split(char const *s, char c)
 /*
 int	main(void)
 {
-	char str[] = "";
+	char str[] = "Hello my name is";
 	char del = ' ';
 	char **result;
 	int	j;

@@ -57,13 +57,15 @@ char	**ft_split(char const *s, char c)
 	int		k;
 	int		len;
 	char	**arr;
+	int		strings;
 
 	i = 0;
 	k = 0;
-	arr = (char **)malloc(sizeof(char *) * (ft_string_counter(s, c) + 1));
+	strings = ft_string_counter(s, c);
+	arr = (char **)malloc(sizeof(char *) * (strings + 1));
 	if (arr == NULL)
 		return (NULL);
-	while (s[i] != '\0' && k < ft_string_counter(s, c))
+	while (s[i] != '\0' && k < strings)
 	{
 		while (s[i] == c && s[i] != '\0')
 			i++;
@@ -73,11 +75,9 @@ char	**ft_split(char const *s, char c)
 			len++;
 			i++;
 		}
-		arr[k] = ft_string_in_pointer(s, c, i, len);
-		k++;
+		arr[k++] = ft_string_in_pointer(s, c, i, len);
 	}
-	arr[k] = NULL;
-	return (arr);
+	return (arr[k] = NULL, arr);
 }
 /*
 int	main(void)

@@ -55,7 +55,7 @@ OBJ := $(patsubst $(SRC_DIR)/%, $(OBJ_DIR)/%, $(SRC:.c=.o))
 OBJ_BONUS := $(patsubst $(SRC_BONUS_DIR)/%, $(OBJ_BONUS_DIR)/%, $(SRC_BONUS:.c=.o))
 
 CC := cc
-CFLAGS := -Wall -Wextra -Werror -g3 -I$(INCLUDE)
+CFLAGS := -Wall -Wextra -Werror -I$(INCLUDE)
 
 AR := ar
 ARFLAGS := -rcs

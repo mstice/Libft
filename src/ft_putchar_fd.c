@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtice <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mtice <mtice@student.42belgium.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 17:13:36 by mtice             #+#    #+#             */
 /*   Updated: 2024/12/12 13:44:39 by mtice            ###   ########.fr       */

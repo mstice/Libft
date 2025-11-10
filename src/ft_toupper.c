@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtice <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mtice <mtice@student.42belgium.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 13:19:31 by mtice             #+#    #+#             */
 /*   Updated: 2024/12/02 13:38:40 by mtice            ###   ########.fr       */

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtice <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mtice <mtice@student.42belgium.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/29 14:35:22 by mtice             #+#    #+#             */
 /*   Updated: 2024/11/29 16:49:53 by mtice            ###   ########.fr       */

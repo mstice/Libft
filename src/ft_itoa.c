@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtice <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mtice <mtice@student.42belgium.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 17:18:33 by mtice             #+#    #+#             */
 /*   Updated: 2024/12/12 17:50:29 by mtice            ###   ########.fr       */

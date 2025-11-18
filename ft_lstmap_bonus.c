@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtice <mtice@student.42london.com>         +#+  +:+       +#+        */
+/*   By: mtice <mtice@student.42belgium.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/08 01:15:10 by mtice             #+#    #+#             */
 /*   Updated: 2025/07/08 01:16:29 by mtice            ###   ########.fr       */
@@ -29,12 +29,16 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 			node = ft_lstnew(f(temp->content));
 		else
 			node = ft_lstnew(temp->content);
+		if (!node)
+			return (ft_lstclear(&lst, del), lst);
 		ft_lstadd_back(&new_list, node);
 		temp = temp->next;
 	}
 	return (new_list);
 }
 
+// #include <stdio.h>
+// #include <string.h>
 // static void	del(void *content)
 // {
 // 	free(content);

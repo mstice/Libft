@@ -25,4 +25,5 @@ $(LIBFT):
 ```
 
 ## 👥 Author
-Matilda Tice (Github: mstice, 42: mtice)
+Matilda Tice (Github: mstice, 42: mtice)  
+<sub>Cover image by [Ayogun](https://github.com/ayogun/42-project-badges)</sub>
